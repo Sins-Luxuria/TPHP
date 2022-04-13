@@ -88,6 +88,11 @@ function creerpetitcarre($nombrevert){
 }
 // 90x90/9 = 900
 // 10 x 10 carrés de 9
+
+
+
+$pattern = "/[0-9](/)[0-9](/)[0-9](/)[0-9](/)[0-9](/)[0-9](/)[0-9](/)[0-9](/)[0-9]/i"
+//https://www.php.net/manual/en/function.preg-match.php
             ?>
 </body>
 </html>
