@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `releve` (
   `id` int(11) NOT NULL,
   `lieu` varchar(100) COLLATE utf8mb4_bin NOT NULL,
-  `date_` date NOT NULL,
+  `date_releve` date NOT NULL,
   `resultat` varchar(20) COLLATE utf8mb4_bin NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
